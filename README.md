@@ -51,22 +51,14 @@ The remaining files are balanced across archives `03`–`07`.
 
 ## Quick start
 
-Download and extract everything into one flat directory:
+Download and extract everything into one flat directory with
+[`download.sh`](download.sh):
 
 ```bash
-base=https://github.com/cpmech/matrix-market/releases/latest/download
-
-mkdir -p matrix-market
-cd matrix-market
-
-for n in 01 02 03 04 05 06 07; do
-    curl -fLO "$base/$n.tar.xz"
-    tar xf "$n.tar.xz"
-    mv "$n"/*.mtx .
-    rmdir "$n"
-    rm "$n.tar.xz"
-done
+bash download.sh ~/Downloads/matrix-market
 ```
+
+If no destination is given, the script uses the current directory.
 
 Each archive contains a top-level directory named after it, so extracting one is
 simply:
