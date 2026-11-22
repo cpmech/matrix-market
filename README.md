@@ -49,6 +49,31 @@ The remaining files are balanced across archives `03`–`07`.
 | `06` | `dielFilterV3clx`, `PFlow_742`, `kim2`, `pre2`, `Goodwin_071`,<br>`vfem`, `RFdevice` |
 | `07` | `Freescale1`, `rajat31`, `atmosmodd`, `atmosmodl`, `fem_filter`,<br>`Raj1`, `darcy003`, `Goodwin_040` |
 
+## Matrix metadata
+
+[`matrices.json`](matrices.json) describes all 44 matrices in one JSON array. Each
+entry contains:
+
+| Field | Meaning |
+|:---|:---|
+| `Name` | Matrix name, matching the `.mtx` file and Russell scripts |
+| `Group` | SuiteSparse collection group |
+| `Num Rows`, `Num Cols` | Matrix dimensions |
+| `Nonzeros` | SuiteSparse nonzero count |
+| `Pattern Entries` | Full-pattern entry count |
+| `Kind` | Problem category |
+| `Symmetric` | `Yes` or `No` |
+| `Positive Definite` | `yes` or `no` |
+| `Type` | `real` or `complex` |
+| `Description` | Short description |
+
+`Pattern Entries` is the full-pattern count used by the Russell benchmarks. The
+`.mtx` header can report fewer entries when the file stores only one triangle of a
+symmetric or Hermitian matrix; `pmsim-hex8-27` and `mhd1280b` are examples.
+
+A matrix is treated as symmetric positive definite only when both
+`Symmetric == "Yes"` and `Positive Definite == "yes"`.
+
 ## Quick start
 
 Download and extract everything into one flat directory with
