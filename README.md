@@ -59,20 +59,30 @@ entry contains:
 | `Name` | Matrix name, matching the `.mtx` file and Russell scripts |
 | `Group` | SuiteSparse collection group |
 | `Num Rows`, `Num Cols` | Matrix dimensions |
-| `Nonzeros` | SuiteSparse nonzero count |
-| `Pattern Entries` | Full-pattern entry count |
+| `Nonzeros` | SuiteSparse numerical nonzero count for the full matrix |
+| `Pattern Entries` | Full-pattern entry count, including explicit zeros |
+| `Stored Entries` | Entry count in the `.mtx` header |
 | `Kind` | Problem category |
-| `Symmetric` | `Yes` or `No` |
+| `Symmetric` | `Yes` or `No` (real or complex symmetric) |
+| `Hermitian` | `Yes` or `No` (complex Hermitian) |
 | `Positive Definite` | `yes` or `no` |
 | `Type` | `real` or `complex` |
 | `Description` | Short description |
 
-`Pattern Entries` is the full-pattern count used by the Russell benchmarks. The
-`.mtx` header can report fewer entries when the file stores only one triangle of a
-symmetric or Hermitian matrix; `pmsim-hex8-27` and `mhd1280b` are examples.
+`Stored Entries` is the count written in the Matrix Market header. For symmetric
+or Hermitian matrices, the file stores only one triangle, so this is smaller than
+`Pattern Entries`. For example, `pmsim-hex8-27` stores 3,369 entries but has
+6,581 pattern entries; `mhd1280b` stores 12,029 entries but has 22,778 pattern
+entries.
 
-A matrix is treated as symmetric positive definite only when both
-`Symmetric == "Yes"` and `Positive Definite == "yes"`.
+For the real symmetric benchmark matrices, SPD means both:
+
+```text
+Symmetric == "Yes" && Positive Definite == "yes"
+```
+
+For complex Hermitian matrices, use `Hermitian == "Yes"` together with
+`Positive Definite == "yes"`. `mhd1280b` is the only Hermitian matrix in the set.
 
 ## Quick start
 

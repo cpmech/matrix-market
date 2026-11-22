@@ -10,7 +10,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "Global stiffness matrix of the stress-strain driver's 3x3x3 Hex8 block (27 elements, 157 unknowns after the essential boundary conditions)"
+    "Description": "Global stiffness matrix of the stress-strain driver's 3x3x3 Hex8 block (27 elements, 157 unknowns after the essential boundary conditions)",
+    "Hermitian": "No",
+    "Stored Entries": 3369
   },
   {
     "Name": "bwm2000",
@@ -23,7 +25,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Brusselator wave model in transport interaction of chemical solutions (1992)"
+    "Description": "Brusselator wave model in transport interaction of chemical solutions (1992)",
+    "Hermitian": "No",
+    "Stored Entries": 7996
   },
   {
     "Name": "rdb5000",
@@ -36,7 +40,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Reaction-diffusion brusselator model (1994)"
+    "Description": "Reaction-diffusion brusselator model (1994)",
+    "Hermitian": "No",
+    "Stored Entries": 29600
   },
   {
     "Name": "Goodwin_040",
@@ -49,7 +55,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Finite element, Navier-Stokes & other transport equations (2018)"
+    "Description": "Finite element, Navier-Stokes & other transport equations (2018)",
+    "Hermitian": "No",
+    "Stored Entries": 561677
   },
   {
     "Name": "fp",
@@ -62,7 +70,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "2-D Fokker Planck eqn, electron dyn. in external field (2006)"
+    "Description": "2-D Fokker Planck eqn, electron dyn. in external field (2006)",
+    "Hermitian": "No",
+    "Stored Entries": 848553
   },
   {
     "Name": "xenon1",
@@ -75,7 +85,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Complex zeolite, sodalite crystals (2001)"
+    "Description": "Complex zeolite, sodalite crystals (2001)",
+    "Hermitian": "No",
+    "Stored Entries": 1181120
   },
   {
     "Name": "twotone",
@@ -88,7 +100,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Harmonic balance method (2001)"
+    "Description": "Harmonic balance method (2001)",
+    "Hermitian": "No",
+    "Stored Entries": 1224224
   },
   {
     "Name": "Raj1",
@@ -101,7 +115,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Circuit Simulation Problem (2007)"
+    "Description": "Circuit Simulation Problem (2007)",
+    "Hermitian": "No",
+    "Stored Entries": 1302464
   },
   {
     "Name": "boyd2",
@@ -114,7 +130,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Optimization problem (2004)"
+    "Description": "Optimization problem (2004)",
+    "Hermitian": "No",
+    "Stored Entries": 890091
   },
   {
     "Name": "pres-cylin-3d-tet10-coarse",
@@ -127,7 +145,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "FEM stiffness matrix of the pressurized cylinder (Tet10, mesh 10x20, 23,578 DOF after the essential boundary conditions)"
+    "Description": "FEM stiffness matrix of the pressurized cylinder (Tet10, mesh 10x20, 23,578 DOF after the essential boundary conditions)",
+    "Hermitian": "No",
+    "Stored Entries": 804045
   },
   {
     "Name": "Goodwin_071",
@@ -140,7 +160,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Finite element, Navier-Stokes & other transport equations (2018)"
+    "Description": "Finite element, Navier-Stokes & other transport equations (2018)",
+    "Hermitian": "No",
+    "Stored Entries": 1797934
   },
   {
     "Name": "darcy003",
@@ -153,7 +175,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Discretization using mixed FE of Darcy (2002)"
+    "Description": "Discretization using mixed FE of Darcy (2002)",
+    "Hermitian": "No",
+    "Stored Entries": 1167685
   },
   {
     "Name": "rma10",
@@ -166,7 +190,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "3D CFD model, Charleston harbor (1997)"
+    "Description": "3D CFD model, Charleston harbor (1997)",
+    "Hermitian": "No",
+    "Stored Entries": 2374001
   },
   {
     "Name": "helm2d03",
@@ -179,7 +205,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Helmholtz eq on a unit square (2004)"
+    "Description": "Helmholtz eq on a unit square (2004)",
+    "Hermitian": "No",
+    "Stored Entries": 1567096
   },
   {
     "Name": "stomach",
@@ -192,7 +220,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "3D electro-physical model of a duodenum (2003)"
+    "Description": "3D electro-physical model of a duodenum (2003)",
+    "Hermitian": "No",
+    "Stored Entries": 3021648
   },
   {
     "Name": "oilpan",
@@ -205,7 +235,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "Structural problem (2004)"
+    "Description": "Structural problem (2004)",
+    "Hermitian": "No",
+    "Stored Entries": 1835470
   },
   {
     "Name": "ASIC_680k",
@@ -218,7 +250,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Circuit simulation matrix (2006)"
+    "Description": "Circuit simulation matrix (2006)",
+    "Hermitian": "No",
+    "Stored Entries": 3871773
   },
   {
     "Name": "tmt_unsym",
@@ -231,7 +265,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Electromagnetics problem (2008)"
+    "Description": "Electromagnetics problem (2008)",
+    "Hermitian": "No",
+    "Stored Entries": 4584801
   },
   {
     "Name": "Goodwin_127",
@@ -244,7 +280,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Finite element, Navier-Stokes & other transport equations (2018)"
+    "Description": "Finite element, Navier-Stokes & other transport equations (2018)",
+    "Hermitian": "No",
+    "Stored Entries": 5778545
   },
   {
     "Name": "pre2",
@@ -257,7 +295,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Harmonic balance method (2001)"
+    "Description": "Harmonic balance method (2001)",
+    "Hermitian": "No",
+    "Stored Entries": 5959282
   },
   {
     "Name": "marine1",
@@ -270,7 +310,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Chemical oceanography; a marine nitrogen cycle inverse model (2018)"
+    "Description": "Chemical oceanography; a marine nitrogen cycle inverse model (2018)",
+    "Hermitian": "No",
+    "Stored Entries": 6226538
   },
   {
     "Name": "torso1",
@@ -283,7 +325,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Finite differences and boundary element, 2D model of torso (2003)"
+    "Description": "Finite differences and boundary element, 2D model of torso (2003)",
+    "Hermitian": "No",
+    "Stored Entries": 8516500
   },
   {
     "Name": "atmosmodd",
@@ -296,7 +340,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "CFD analysis of atmospheric models (2009)"
+    "Description": "CFD analysis of atmospheric models (2009)",
+    "Hermitian": "No",
+    "Stored Entries": 8814880
   },
   {
     "Name": "atmosmodl",
@@ -309,7 +355,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "CFD analysis of atmospheric models (2009)"
+    "Description": "CFD analysis of atmospheric models (2009)",
+    "Hermitian": "No",
+    "Stored Entries": 10319760
   },
   {
     "Name": "memchip",
@@ -322,7 +370,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Circuit simulation problem (2010)"
+    "Description": "Circuit simulation problem (2010)",
+    "Hermitian": "No",
+    "Stored Entries": 14810202
   },
   {
     "Name": "Freescale1",
@@ -335,7 +385,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Circuit simulation problem (2008)"
+    "Description": "Circuit simulation problem (2008)",
+    "Hermitian": "No",
+    "Stored Entries": 18920347
   },
   {
     "Name": "rajat31",
@@ -348,7 +400,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "Circuit simulation problem (2006)"
+    "Description": "Circuit simulation problem (2006)",
+    "Hermitian": "No",
+    "Stored Entries": 20316253
   },
   {
     "Name": "Transport",
@@ -361,7 +415,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "3D finite element flow and transport (2012)"
+    "Description": "3D finite element flow and transport (2012)",
+    "Hermitian": "No",
+    "Stored Entries": 23500731
   },
   {
     "Name": "inline_1",
@@ -374,7 +430,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "Structural problem, stiffness matrix (2004)"
+    "Description": "Structural problem, stiffness matrix (2004)",
+    "Hermitian": "No",
+    "Stored Entries": 18660027
   },
   {
     "Name": "PFlow_742",
@@ -387,7 +445,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "3D pressure-temperature evolution in porous media (2014)"
+    "Description": "3D pressure-temperature evolution in porous media (2014)",
+    "Hermitian": "No",
+    "Stored Entries": 18940627
   },
   {
     "Name": "Emilia_923",
@@ -400,7 +460,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "Geomechanical model for C02 sequestration (2011)"
+    "Description": "Geomechanical model for C02 sequestration (2011)",
+    "Hermitian": "No",
+    "Stored Entries": 20964171
   },
   {
     "Name": "dielFilterV2real",
@@ -413,7 +475,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "real",
-    "Description": "FEM in electromagnetics (2011)"
+    "Description": "FEM in electromagnetics (2011)",
+    "Hermitian": "No",
+    "Stored Entries": 24848204
   },
   {
     "Name": "Flan_1565",
@@ -426,7 +490,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "Structural problem, 3D model of a steel flange (2011)"
+    "Description": "Structural problem, 3D model of a steel flange (2011)",
+    "Hermitian": "No",
+    "Stored Entries": 59485419
   },
   {
     "Name": "mhd1280b",
@@ -439,7 +505,9 @@
     "Symmetric": "No",
     "Positive Definite": "yes",
     "Type": "complex",
-    "Description": "Alfven spectra in magnetohydrodynamics (1994)"
+    "Description": "Alfven spectra in magnetohydrodynamics (1994)",
+    "Hermitian": "Yes",
+    "Stored Entries": 12029
   },
   {
     "Name": "mplate",
@@ -452,7 +520,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "Vibro-acoustic problem (1997)"
+    "Description": "Vibro-acoustic problem (1997)",
+    "Hermitian": "No",
+    "Stored Entries": 74076
   },
   {
     "Name": "RFdevice",
@@ -465,7 +535,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "Semiconductor device simulation (2007)"
+    "Description": "Semiconductor device simulation (2007)",
+    "Hermitian": "No",
+    "Stored Entries": 365580
   },
   {
     "Name": "vfem",
@@ -478,7 +550,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "Electromagnetics; vector finite element (2008)"
+    "Description": "Electromagnetics; vector finite element (2008)",
+    "Hermitian": "No",
+    "Stored Entries": 1434636
   },
   {
     "Name": "fem_filter",
@@ -491,7 +565,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "FEM band-pass microwave filter 500MHz (2008)"
+    "Description": "FEM band-pass microwave filter 500MHz (2008)",
+    "Hermitian": "No",
+    "Stored Entries": 1731206
   },
   {
     "Name": "Chevron4",
@@ -504,7 +580,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "Temporal freq domain seismic modeling (2012)"
+    "Description": "Temporal freq domain seismic modeling (2012)",
+    "Hermitian": "No",
+    "Stored Entries": 6376412
   },
   {
     "Name": "mono_500Hz",
@@ -517,7 +595,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "3D vibro-acoustic problem, aircraft engine nacelle (2008)"
+    "Description": "3D vibro-acoustic problem, aircraft engine nacelle (2008)",
+    "Hermitian": "No",
+    "Stored Entries": 5036288
   },
   {
     "Name": "kim2",
@@ -530,7 +610,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "2D 676-by-676 complex mesh (2002)"
+    "Description": "2D 676-by-676 complex mesh (2002)",
+    "Hermitian": "No",
+    "Stored Entries": 11330020
   },
   {
     "Name": "fem_hifreq_circuit",
@@ -543,7 +625,9 @@
     "Symmetric": "No",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "FEM Maxwell equations for hi-freq circuit (2009)"
+    "Description": "FEM Maxwell equations for hi-freq circuit (2009)",
+    "Hermitian": "No",
+    "Stored Entries": 20239237
   },
   {
     "Name": "dielFilterV3clx",
@@ -556,7 +640,9 @@
     "Symmetric": "Yes",
     "Positive Definite": "no",
     "Type": "complex",
-    "Description": "High-order vector finite element method in EM (2011)"
+    "Description": "High-order vector finite element method in EM (2011)",
+    "Hermitian": "No",
+    "Stored Entries": 16653308
   },
   {
     "Name": "pres-cylin-3d-tet10-fine",
@@ -569,6 +655,8 @@
     "Symmetric": "Yes",
     "Positive Definite": "yes",
     "Type": "real",
-    "Description": "FEM stiffness matrix of a pressurized cylinder (Tet10 with 1,711,464 DOF)"
+    "Description": "FEM stiffness matrix of a pressurized cylinder (Tet10 with 1,711,464 DOF)",
+    "Hermitian": "No",
+    "Stored Entries": 67636826
   }
 ]
